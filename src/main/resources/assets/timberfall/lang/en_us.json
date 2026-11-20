@@ -1,0 +1,55 @@
+{
+	"timberfall.screen.title": "Timberfall Settings",
+
+	"key.category.timberfall.timberfall": "Timberfall",
+	"key.timberfall.settings": "Open Timberfall settings",
+	"key.timberfall.toggle": "Toggle Timberfall",
+	"timberfall.toggle.on": "Timberfall: ON",
+	"timberfall.toggle.off": "Timberfall: OFF",
+
+	"timberfall.option.enabled": "Tree Felling",
+	"timberfall.option.enabled.tooltip": "Master switch. When off, logs break one at a time like vanilla.",
+
+	"timberfall.option.mode": "Mode",
+	"timberfall.option.mode.instant": "Instant",
+	"timberfall.option.mode.block_by_block": "Block by Block",
+	"timberfall.option.mode.tooltip": "Instant: the whole tree disappears the moment you break a log.\nBlock by Block: the tree breaks one block at a time with a short delay, starting at the log you chopped.",
+
+	"timberfall.option.delay": "Delay",
+	"timberfall.option.delay.value": "%s: %s ticks (%ss)",
+	"timberfall.option.delay.tooltip": "Block by Block mode only. Time between two blocks breaking. 20 ticks = 1 second.\nLeaves break in quick batches so the canopy does not take forever.",
+
+	"timberfall.option.auto_pickup": "Auto Pickup",
+	"timberfall.option.auto_pickup.tooltip": "Put everything the tree drops straight into your inventory.\nIf your inventory is full, the rest drops on the ground.",
+
+	"timberfall.option.use_durability": "Use Axe Durability",
+	"timberfall.option.use_durability.tooltip": "On: every log costs your axe 1 durability, like normal mining.\nOff: felling a tree is free.",
+
+	"timberfall.option.protect_axe": "Protect Axe",
+	"timberfall.option.protect_axe.tooltip": "Only matters when durability is used.\nIf your axe could not survive the whole tree, only the one log you hit breaks, so the axe never snaps halfway.\nYou get a message on the action bar when this happens.",
+
+	"timberfall.option.replant": "Replant",
+	"timberfall.option.replant.off": "Off",
+	"timberfall.option.replant.from_inventory": "My Saplings",
+	"timberfall.option.replant.free": "Free",
+	"timberfall.option.replant.tooltip": "Plants a sapling where the trunk stood.\nMy Saplings: takes one from the tree's own drops or your inventory.\nFree: always plants one, no sapling needed.",
+
+	"timberfall.option.break_leaves": "Break Leaves",
+	"timberfall.option.break_leaves.tooltip": "Also remove the leaves the tree was holding up. Player placed leaves are never touched.",
+
+	"timberfall.option.require_axe": "Require Axe",
+	"timberfall.option.require_axe.tooltip": "Only fell trees while holding an axe.",
+
+	"timberfall.option.require_leaves": "Require Leaves",
+	"timberfall.option.require_leaves.tooltip": "Only fell a log cluster if natural leaves are attached to it.\nThis keeps log cabins and builds safe.",
+
+	"timberfall.option.sneak_rule": "Sneaking",
+	"timberfall.option.sneak_rule.sneak_pauses": "Chop One",
+	"timberfall.option.sneak_rule.sneak_required": "Fell",
+	"timberfall.option.sneak_rule.ignore": "Ignore",
+	"timberfall.option.sneak_rule.tooltip": "Chop One: hold sneak to break a single log normally.\nFell: only fell trees while sneaking.\nIgnore: sneaking changes nothing.",
+
+	"timberfall.option.max_blocks": "Max Tree Size",
+	"timberfall.option.max_blocks.value": "%s: %s logs",
+	"timberfall.option.max_blocks.tooltip": "Log clusters bigger than this are not treated as one tree and break normally (you get a message when that happens).\nTrees that touch each other count as one cluster, so dense jungles and dark forests need a higher limit."
+}

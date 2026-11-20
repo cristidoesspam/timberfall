@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "timberfall",
+	"version": "${version}",
+	"name": "Timberfall",
+	"description": "Chop one log and the whole tree comes down. Instant or block by block, with auto pickup, optional axe durability and automatic replanting.",
+	"authors": [
+		"cristidoesspam"
+	],
+	"license": "MIT",
+	"icon": "assets/timberfall/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.timberfall.Timberfall"
+		],
+		"client": [
+			"dev.timberfall.client.TimberfallClient"
+		],
+		"modmenu": [
+			"dev.timberfall.client.TimberfallModMenu"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.19.0",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": ">=0.163.0"
+	},
+	"suggests": {
+		"modmenu": "*"
+	}
+}
